@@ -80,7 +80,7 @@ h1>span {
 
 }
 .pic {
-    
+    border: 3px solid black;
     display: flex;
     justify-content: center;
     margin-top: 25px;
@@ -91,6 +91,8 @@ h1>span {
 section {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 h5 {
     font-weight: 400;
@@ -98,6 +100,7 @@ h5 {
 article {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     width: 450px;
 }
