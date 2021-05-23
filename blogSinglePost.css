@@ -42,6 +42,7 @@ ul {
     padding: 0;
     margin-top: 20px;
     font-size: 14px;
+
        
 }
 .navButton {
@@ -82,8 +83,8 @@ h1>span {
 .blogArticle {
     border: 2px solid green;
     display: flex;
-    flex-direction: row;
-    height: 300px;
+    flex-direction: column;
+    align-items: center;
     width: 950px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -91,22 +92,14 @@ h1>span {
 
 .blogWords {
     width: 650px;
-    height: 300px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-self: center;
     align-items: center;
     padding-left: 75px;
     padding-right: 75px;
 }
 
-.readMore {
-    background-color: black;
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-    padding: 10px;
-}
 
 footer {
     /* border: 1px solid red; */
