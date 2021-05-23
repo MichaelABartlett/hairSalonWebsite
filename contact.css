@@ -58,12 +58,12 @@ ul {
 .title {
     /* border: 1px solid blue; */
     font-family: 'Poller One', cursive;
-    font-size: 30px;
+    font-size: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 65px;
-    width: 325px;
+    /* width: 500px; */
     color: white;
 }
 h1>span {
@@ -71,6 +71,39 @@ h1>span {
     padding: 5px 25px;
 }
 
+.user-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+
+.blocks {
+    width: 620;
+    height: 60px;
+    
+}
+.blocks>input {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 620px;
+    height: 60px;
+}
+.sendButton>input {
+    width: 80px;
+}
+
+.messageBlock>input {
+    padding: 20px 10px;
+    text-align: center;
+    width: 620px;
+    height: 219px;
+}
 
 
 
