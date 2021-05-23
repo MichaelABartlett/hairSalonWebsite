@@ -57,7 +57,7 @@ ul {
 }
 
 .title {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     font-family: 'Poller One', cursive;
     font-size: 25px;
     display: flex;
@@ -151,3 +151,55 @@ footer {
     background-color: white;
     border-radius: 5px;
 }
+
+
+@media (max-width: 1100px) {
+    .blogArticle {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        width: auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+    }
+    .blogWords {
+        height: auto;
+        width: auto;
+        flex-wrap: wrap;
+    }
+    
+}   
+@media (max-width: 680px) {
+    footer {
+        height: 150px;
+        flex-direction: column;
+    }
+    .socialMedia, .copyright {
+        margin: 0 0 ;
+    }
+    .socialMedia {
+        width: 200px;       
+    }
+    .socialLine {
+        flex-direction: row;
+    }
+}
+   
+
+ @media (max-width: 580px) {
+    .mustacheSilhouette {
+        width: 250px;  
+    }
+    .companyName {
+        font-size: 15px;        
+    }
+    /* .title {
+        font-size: 10px;
+    } */
+    ul {
+        flex-direction: column;
+    }
+
+     
+ }

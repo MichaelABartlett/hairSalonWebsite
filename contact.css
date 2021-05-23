@@ -83,7 +83,7 @@ h1>span {
 
 
 .blocks {
-    width: 620;
+    width: 620px;
     height: 60px;
     
 }
@@ -103,16 +103,9 @@ h1>span {
     text-align: center;
     width: 620px;
     height: 219px;
+    flex-wrap: wrap;
 }
 
-
-
-.bottomGalleryTitle {
-    /* border: 1px solid green; */
-    margin-top: 25px;
-    width: auto;
-    font-family: 'Poller One', cursive;
-}
 
 footer {
     /* border: 1px solid red; */
@@ -157,3 +150,59 @@ footer {
     background-color: white;
     border-radius: 5px;
 }
+
+@media (max-width: 780px) {
+    .title {
+        font-size: 15px;
+    }
+    
+    .blocks {
+        width: auto;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}   
+@media (max-width: 680px) {
+    footer {
+        height: 150px;
+        flex-direction: column;
+    }
+    .socialMedia, .copyright {
+        margin: 0 0 ;
+    }
+    .socialMedia {
+        width: 200px;       
+    }
+    .socialLine {
+        flex-direction: row;
+    }
+    .blocks>input {
+        
+        width: auto;
+       
+    }
+    
+    .messageBlock>input {
+        
+        width: auto;
+        
+    }
+}
+   
+
+ @media (max-width: 580px) {
+    .mustacheSilhouette {
+        width: 250px;  
+    }
+    .companyName {
+        font-size: 15px;        
+    }
+    .title {
+        font-size: 13px;
+    }
+    ul {
+        flex-direction: column;
+    }
+
+     
+ }
