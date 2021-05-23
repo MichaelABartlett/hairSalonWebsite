@@ -88,11 +88,15 @@ h3>span {
     padding-left: 5px;
     padding-right: 5px;
 }
+.readMore {
+    text-decoration: none;
+}
 .readMore>span {
     background-color: turquoise;
     color: white;
     font-size: 20px;
     padding: 10px;
+    
 }
 .bottomGallery {
     /* border: 1px solid brown; */
