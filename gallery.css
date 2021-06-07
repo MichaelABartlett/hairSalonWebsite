@@ -49,76 +49,52 @@ ul {
     color: black;
 }
 
-.mainImage {
-    /* border: 1px solid blueviolet; */
-    width: auto;
-    height: 350px;
-    display: flex;
-    align-items: center;
-    background-image: url(scarecrow-2193142_1280.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-y: 55%;
-
-}
-
-.imageText {
+.titleBlock {
     display: flex;
     justify-content: center;
-    flex-direction: column;
-    /* border: 1px solid green; */
-    height: 300px;
-    width: 425px;
-    margin-left: 10%;
-    line-height: 1.1;
+
 }
-h2  {
-    width: 410px;
-    font-size: 25px;
+
+.title {
+    /* border: 1px solid blue; */
+    font-family: 'Poller One', cursive;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65px;
+    width: 325px;
+    color: white;
 }
-h2>span {
-    background-color: white;
-    padding-left: 5px;
-    padding-right: 5px;
-}
-h3>span {
+h1>span {
     background-color: black;
-    color: white;
-    font-size: 20px;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding: 5px 25px;
 }
-.readMore {
-    text-decoration: none;
-}
-.readMore>span {
-    background-color: turquoise;
-    color: white;
-    font-size: 20px;
-    padding: 10px;
-    
-}
-.bottomGallery {
+
+
+
+.Gallery {
     /* border: 1px solid brown; */
     display: flex;
     flex-wrap: wrap;
     padding-top: 24px;
+    padding-bottom: 20px;
     flex-direction: row;
     justify-content: center;
     width: auto;
     height: auto;
     object-fit: contain;
-}
-.leftPic, .middlePic, .rightPic {
+   }
+.Pic {
     display: flex;
     align-items: center;
     flex-direction: column;
-    /* border: 1px solid rebeccapurple; */
+    border: 3px solid black;
     width: 300px;
     min-width: 299px;
-    height: 295px;
-    margin: 0 10px 60px;
-   
+    height: 300px;
+    margin: 10px 20px;
+    object-fit: cover;
 }
 .bottomGalleryTitle {
     /* border: 1px solid green; */
@@ -172,9 +148,9 @@ footer {
 }
 
 @media (max-width: 780px) {
-    .title {
+    /* .title {
         font-size: 15px;
-    }
+    } */
 }   
 @media (max-width: 680px) {
     footer {
@@ -200,21 +176,12 @@ footer {
     .companyName {
         font-size: 15px;        
     }
-    .title {
+    /* .title {
         font-size: 10px;
-    }
+    } */
     ul {
         flex-direction: column;
     }
-    h2>span {
-        font-size: 20px;
-    }
-    /* h3>span {
-        background-color: black;
-        
-        font-size: 15px;
-        
-    } */
 
      
  }

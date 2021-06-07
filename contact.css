@@ -49,83 +49,63 @@ ul {
     color: black;
 }
 
-.mainImage {
-    /* border: 1px solid blueviolet; */
-    width: auto;
-    height: 350px;
-    display: flex;
-    align-items: center;
-    background-image: url(scarecrow-2193142_1280.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-y: 55%;
-
-}
-
-.imageText {
+.titleBlock {
     display: flex;
     justify-content: center;
-    flex-direction: column;
-    /* border: 1px solid green; */
-    height: 300px;
-    width: 425px;
-    margin-left: 10%;
-    line-height: 1.1;
+
 }
-h2  {
-    width: 410px;
+
+.title {
+    /* border: 1px solid blue; */
+    font-family: 'Poller One', cursive;
     font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65px;
+    /* width: 500px; */
+    color: white;
 }
-h2>span {
-    background-color: white;
-    padding-left: 5px;
-    padding-right: 5px;
-}
-h3>span {
+h1>span {
     background-color: black;
-    color: white;
-    font-size: 20px;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding: 5px 25px;
 }
-.readMore {
-    text-decoration: none;
+
+.user-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
 }
-.readMore>span {
-    background-color: turquoise;
-    color: white;
-    font-size: 20px;
-    padding: 10px;
+
+
+.blocks {
+    width: 620px;
+    height: 60px;
     
 }
-.bottomGallery {
-    /* border: 1px solid brown; */
+.blocks>input {
     display: flex;
-    flex-wrap: wrap;
-    padding-top: 24px;
-    flex-direction: row;
     justify-content: center;
-    width: auto;
-    height: auto;
-    object-fit: contain;
+    text-align: center;
+    width: 620px;
+    height: 60px;
 }
-.leftPic, .middlePic, .rightPic {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    /* border: 1px solid rebeccapurple; */
-    width: 300px;
-    min-width: 299px;
-    height: 295px;
-    margin: 0 10px 60px;
-   
+.sendButton>input {
+    width: 80px;
 }
-.bottomGalleryTitle {
-    /* border: 1px solid green; */
-    margin-top: 25px;
-    width: auto;
-    font-family: 'Poller One', cursive;
+
+.messageBlock>input {
+    padding: 20px 10px;
+    text-align: center;
+    width: 620px;
+    height: 219px;
+    flex-wrap: wrap;
 }
+
 
 footer {
     /* border: 1px solid red; */
@@ -175,6 +155,12 @@ footer {
     .title {
         font-size: 15px;
     }
+    
+    .blocks {
+        width: auto;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
 }   
 @media (max-width: 680px) {
     footer {
@@ -190,6 +176,17 @@ footer {
     .socialLine {
         flex-direction: row;
     }
+    .blocks>input {
+        
+        width: auto;
+       
+    }
+    
+    .messageBlock>input {
+        
+        width: auto;
+        
+    }
 }
    
 
@@ -201,20 +198,11 @@ footer {
         font-size: 15px;        
     }
     .title {
-        font-size: 10px;
+        font-size: 13px;
     }
     ul {
         flex-direction: column;
     }
-    h2>span {
-        font-size: 20px;
-    }
-    /* h3>span {
-        background-color: black;
-        
-        font-size: 15px;
-        
-    } */
 
      
  }

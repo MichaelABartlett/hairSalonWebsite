@@ -49,83 +49,63 @@ ul {
     color: black;
 }
 
-.mainImage {
-    /* border: 1px solid blueviolet; */
-    width: auto;
-    height: 350px;
-    display: flex;
-    align-items: center;
-    background-image: url(scarecrow-2193142_1280.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-y: 55%;
-
-}
-
-.imageText {
+.titleBlock {
     display: flex;
     justify-content: center;
-    flex-direction: column;
-    /* border: 1px solid green; */
-    height: 300px;
-    width: 425px;
-    margin-left: 10%;
-    line-height: 1.1;
+    flex-wrap: nowrap;
+
 }
-h2  {
-    width: 410px;
+
+.title {
+    /* border: 1px solid blue; */
+    font-family: 'Poller One', cursive;
     font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    /* width: 575px; */
+    color: white;
 }
-h2>span {
-    background-color: white;
-    padding-left: 5px;
-    padding-right: 5px;
-}
-h3>span {
+h1>span {
     background-color: black;
-    color: white;
-    font-size: 20px;
-    padding-left: 5px;
-    padding-right: 5px;
-}
-.readMore {
-    text-decoration: none;
-}
-.readMore>span {
-    background-color: turquoise;
-    color: white;
-    font-size: 20px;
-    padding: 10px;
+    padding: 5px 25px;
     
 }
-.bottomGallery {
-    /* border: 1px solid brown; */
+.thinkingImage {
     display: flex;
-    flex-wrap: wrap;
-    padding-top: 24px;
-    flex-direction: row;
     justify-content: center;
-    width: auto;
-    height: auto;
-    object-fit: contain;
-}
-.leftPic, .middlePic, .rightPic {
-    display: flex;
-    align-items: center;
     flex-direction: column;
-    /* border: 1px solid rebeccapurple; */
-    width: 300px;
-    min-width: 299px;
-    height: 295px;
-    margin: 0 10px 60px;
+    width: 650;
+    max-width: 100%;
+
+}
+.pic {
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
    
 }
-.bottomGalleryTitle {
-    /* border: 1px solid green; */
-    margin-top: 25px;
-    width: auto;
-    font-family: 'Poller One', cursive;
+section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
+h5 {
+    font-weight: 400;
+}
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+}
+
 
 footer {
     /* border: 1px solid red; */
@@ -206,15 +186,11 @@ footer {
     ul {
         flex-direction: column;
     }
-    h2>span {
-        font-size: 20px;
+    article {
+        width: auto;
+        margin-left: 20px;
+        margin-right: 20px;
     }
-    /* h3>span {
-        background-color: black;
-        
-        font-size: 15px;
-        
-    } */
 
      
  }
